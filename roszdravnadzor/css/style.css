@@ -1,0 +1,200 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url('fonts/opensans/OpenSans-Italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url('fonts/opensans/OpenSans-SemiboldItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url('fonts/opensans/OpenSans-Semibold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('fonts/opensans/OpenSans-Regular.ttf') format('truetype');
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.container {
+	min-width: 965px;
+    max-width: 1280px;
+}
+a {
+	text-decoration: underline;	
+}
+#sv_bar {
+	display: none;
+}
+.mb20 {
+	margin-bottom: 20px;
+}
+.mb50 {
+	margin-bottom: 50px;
+}
+.mb100 {
+	margin-bottom: 100px;
+}
+.mt20 {
+	margin-top: 20px;
+}
+
+
+
+.shead {
+	height: 135px;
+}
+.sheader {
+	padding-top: 40px;
+	padding-left: 130px;
+}
+.slogo {
+	width: 90px;
+	padding-top: 15px;
+}
+.sname {
+	font-size: 28px;
+	margin: 0;
+	line-height: 18px;
+	font-weight: 600;
+}
+.snametop {
+	font-size: 23px;
+	font-weight: 400;
+}
+
+
+.slanguage {
+	margin-top: 5px;
+}
+.svid {
+	margin-top: 15px;	
+}
+.svid a {
+	color: #990000;
+	font-size: 16px;
+}
+.ssearch {
+	width: 100%;
+	margin-top: 10px;
+}
+.ssearch a {
+	text-decoration: none;
+}
+.ssearch .form-control {
+	height: 28px;
+}
+
+
+.snavbar {
+	background-color: #336699;
+	margin-bottom: 20px;	
+}
+.snavbar a {
+	color: #fff;	
+	padding: 0;
+}
+.snav {
+	padding: 0;
+}
+.snav li {
+	float: left;
+	list-style-type: none;
+	padding: 10px 30px 10px 0px;
+}
+
+
+.mainblock {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.leftmenu {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	background-color: #DDDDDD;
+}
+.leftmenu ul {			
+	padding: 20px 20px 20px	20px;
+}
+.leftmenu li {
+	list-style-type: none;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-bottom: 1px dashed #fff;
+}
+
+
+.sdate {
+	text-align: right;
+	color: #aaa;
+}
+.scont {
+	font-size: 85%;
+}
+.newsrow {
+	margin-bottom: 20px;
+}
+.newsimg {
+	margin-right: 10px;
+}
+
+
+.fullb {
+	margin-bottom: 50px;
+}
+.sgray {
+	background-color: #DDDDDD;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.sgray p {
+	margin: 0;
+}
+.gosb_div {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.gosb {
+	width: 160px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-bottom: 10px;
+
+}
+.jurimg {	
+	height: 130px;
+}
+.pdfimg {
+	width: 20px;
+}
+
+.sfooter {
+	background-color: #336699;
+	color: #fff;
+	padding-top: 10px;
+	margin-top: 50px;	
+}
+
+
+.docrow {
+	margin-bottom: 20px;	
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #ccc;
+}
+.docrow img {
+	width: 20px;
+}
+.docrow a {
+	font-size: 130%;	
+}

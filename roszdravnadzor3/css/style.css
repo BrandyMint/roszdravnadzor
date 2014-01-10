@@ -1,0 +1,200 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url('fonts/opensans/OpenSans-Italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url('fonts/opensans/OpenSans-SemiboldItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url('fonts/opensans/OpenSans-Semibold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('fonts/opensans/OpenSans-Regular.ttf') format('truetype');
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.container {
+	min-width: 965px;
+    max-width: 1280px;
+}
+a {
+	text-decoration: underline;	
+}
+#sv_bar {
+	display: none;
+}
+.mb20 {
+	margin-bottom: 20px;
+}
+.mb50 {
+	margin-bottom: 50px;
+}
+.mb100 {
+	margin-bottom: 100px;
+}
+.mt20 {
+	margin-top: 20px;
+}
+
+
+
+.shead {
+	height: 135px;
+	background-color: #336699;
+}
+.sheader {
+	padding-top: 40px;
+	padding-left: 130px;
+	color: #fff;
+}
+.slogo {
+	width: 90px;
+	padding-top: 15px;
+}
+.sname {
+	font-size: 21px;
+	margin: 0;
+	line-height: 23px;
+}
+.snametop {
+	font-size: 36px;
+	font-weight: 600;
+}
+
+
+.slanguage {
+	margin-top: 35px;
+	margin-bottom: 10px;
+	color: #fff;
+}
+.slanguage a {
+	color: #fff;
+}
+.ssearch {
+	width: 100%;
+	margin-top: 10px;
+}
+.ssearch a {
+	text-decoration: none;
+}
+.ssearch .form-control {
+	height: 28px;
+}
+
+
+.snavbar {	
+	margin-bottom: 20px;	
+}
+.snavbar .container {
+	background-color: #ddd;
+}
+.snavbar a {
+	color: #333;
+	font-weight: 600;
+	padding: 0;
+}
+.snav {
+	padding: 0;
+}
+.snav li {
+	float: left;
+	list-style-type: none;
+	padding: 10px 30px 10px 0px;
+}
+
+
+.mainblock {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.leftmenu {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	background-color: #336699;
+}
+.leftmenu a {
+	color: #fff;
+}
+.leftmenu ul {			
+	padding: 20px 20px 20px	20px;
+}
+.leftmenu li {
+	list-style-type: none;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.sdate {
+	text-align: right;
+	color: #aaa;
+}
+.scont {
+	font-size: 85%;
+}
+.newsrow {
+	margin-bottom: 20px;
+}
+.newsimg {
+	margin-right: 10px;
+}
+
+
+.fullb {
+	margin-bottom: 50px;
+}
+.sgray {	
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.sgray p {
+	margin: 0;
+}
+.gosb_div {	
+	padding-bottom: 50px;
+}
+.gosb_div .col-xs-2 {
+	padding-left: 0;
+	padding-right: 0;
+}
+.gosb {
+	width: 100%;
+}
+.jurimg {	
+	height: 120px;
+}
+.pdfimg {
+	width: 20px;
+}
+
+.sfooter .container{
+	background-color: #ddd;
+	color: #333;
+	padding-top: 10px;	
+}
+
+
+.docrow {
+	margin-bottom: 20px;	
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #ccc;
+}
+.docrow img {
+	width: 20px;
+}
+.docrow a {
+	font-size: 130%;	
+}

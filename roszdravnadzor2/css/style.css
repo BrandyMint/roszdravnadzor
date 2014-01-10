@@ -1,0 +1,232 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url('fonts/opensans/OpenSans-Italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url('fonts/opensans/OpenSans-SemiboldItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url('fonts/opensans/OpenSans-Semibold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('fonts/opensans/OpenSans-Regular.ttf') format('truetype');
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-top: 40px;    
+}
+.container {
+	min-width: 965px;
+    max-width: 1280px;
+}
+a {
+	color: #0064C8;
+	text-decoration: underline;	
+}
+#sv_bar {
+	display: none;
+}
+.mainblock {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.mb20 {
+	margin-bottom: 20px;
+}
+.mb30 {
+	margin-bottom: 30px;
+}
+.mb50 {
+	margin-bottom: 50px;
+}
+.mb100 {
+	margin-bottom: 100px;
+}
+.mt20 {
+	margin-top: 20px;
+}
+.mt30 {
+	margin-top: 30px;
+}
+.mt50 {
+	margin-top: 50px;
+}
+
+
+
+.shead {
+	
+}
+.sheader {
+	padding-top: 20px;	
+}
+.slogo {
+	width: 60px;	
+}
+.sname {
+	margin-top: 5px;
+	font-size: 16px;	
+	line-height: 20px;
+	font-weight: 400;
+}
+
+
+.slanguage {
+	margin-top: 15px;
+}
+.svid {
+	margin-top: 15px;	
+}
+.svid a {
+	color: #990000;
+	font-size: 14px;
+}
+.ssearch {
+	width: 100%;
+	margin-top: 50px;
+}
+@media screen and (max-width:1199px) {
+	.sname {
+		font-size: 14px;
+	}
+	.ssearch {
+		margin-top: 20px;
+	}
+	.svid a {
+		font-size: 12px;
+	}
+	.slanguage {
+		font-size: 12px;
+	}
+}
+
+.ssearch a {
+	text-decoration: none;
+}
+.ssearch .form-control {
+	height: 28px;
+}
+
+
+.snavbar {
+	background-color: #003264;
+	margin-bottom: 20px;	
+	border-bottom: 1px solid #fff;
+}
+.snavbar a {
+	color: #fff;	
+	padding: 0;
+}
+.snav {
+	padding: 0;
+	margin: 0;
+}
+.snav li {
+	float: left;
+	list-style-type: none;
+	padding: 10px 15px 10px 0px;
+}
+.navbar-default .navbar-brand {		
+	color: #FFF7F4;
+	text-decoration: none;
+	font-weight: 600;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	color: #FFF7F4;
+}
+.logo2 {
+	height: 40px;
+	margin-right: 15px;
+}
+
+
+.leftmenu {	
+	margin-bottom: 50px;
+	border-right: 2px solid #ddd;	
+}
+.leftmenu ul {			
+	padding: 20px 20px 20px	20px;
+}
+.leftmenu li {
+	list-style-type: circle;
+	padding-top: 8px;
+	padding-bottom: 8px;	
+}
+
+
+.sdate {
+	text-align: right;
+	color: #aaa;
+}
+.scont {
+	font-size: 85%;
+}
+.newsrow {
+	margin-bottom: 20px;
+}
+.newsimg {
+	margin-right: 10px;
+}
+
+
+.fullb {
+	margin-bottom: 50px;
+}
+.sgray {
+	background-color: #eee;	
+	background-image: url(../img/bg-light.png);
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.sgray p {
+	margin: 0;
+}
+.sline {
+	margin-top: 20px;
+	height: 30px;
+	margin-bottom: 50px;	
+}
+.gosb_div {
+	
+}
+.gosb {
+	width: 230px;		
+}
+.jurimg {	
+	height: 130px;
+}
+.pdfimg {
+	width: 20px;
+}
+
+.sfooter {	
+	margin-top: 50px;
+
+}
+
+.docrow {
+	margin-bottom: 20px;	
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #ccc;
+}
+.docrow img {
+	width: 20px;
+}
+.docrow a {
+	font-size: 130%;	
+}

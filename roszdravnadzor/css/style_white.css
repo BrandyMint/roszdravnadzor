@@ -1,0 +1,54 @@
+body {
+	font-family: Arial, sans-serif;    
+	font-size: 150%;
+	background-color: #fff;
+	color: #000;
+}
+a {
+	color: #000;
+}
+.svid {
+	display: none;
+}
+#sv_bar {
+	display: block;
+	background-color: #ccc;
+	padding: 10px;
+}
+.sheader {
+	padding-left: 0;
+}
+.snametop {
+	font-size: 29px;
+}
+.sname {
+	font-size: 34px;
+	font-weight: bold;
+}
+.svid a {
+	color: #000;
+	font-size: 18px;
+}
+.ssearch .form-control {
+	height: 32px;
+}
+.regions, .journal {
+	display: none;
+}
+.leftmenu {
+	background-color: #fff;
+	border-left: 2px solid #000;
+}
+.leftmenu ul {			
+	padding: 10px 10px 0px 10px;
+}
+.leftmenu li {
+	border-bottom: none;
+}
+.snavbar, .sfooter {
+	background-color: #ccc;
+	color: #000;
+}
+.snavbar a {
+	color: #000;
+}

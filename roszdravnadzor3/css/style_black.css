@@ -1,0 +1,63 @@
+body {
+	font-family: Arial, sans-serif;    
+	font-size: 150%;
+	background-color: #000;
+	color: #fff;
+}
+a {
+	color: #fff;
+}
+.svid {
+	display: none;
+}
+#sv_bar {
+	display: block;
+	background-color: #333;
+	padding: 10px;
+}
+.shead {
+	background-color: #000;	
+}
+.shead a {
+	color: #fff;
+}
+.sheader {
+	padding-left: 0;
+	color: #fff;
+}
+.svid a {
+	color: #fff;
+	font-size: 18px;
+}
+.ssearch .form-control {
+	height: 32px;
+}
+.regions, .journal {
+	display: none;
+}
+.leftmenu {
+	background-color: #000;
+}
+.leftmenu ul {			
+	padding: 10px 10px 0px 10px;
+}
+.leftmenu a {
+	color: #fff;
+	font-size: 120%;
+}
+.leftmenu li {
+	padding-bottom: 10px;
+}
+.snavbar, .sfooter {	
+	color: #fff;
+}
+.snavbar a {
+	color: #fff;
+}
+.newsdiv {
+	width: 100%;
+}
+.snavbar .container, .sfooter .container {
+	background-color: #333;
+	color: #fff;
+}`

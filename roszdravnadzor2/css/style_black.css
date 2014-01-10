@@ -1,0 +1,62 @@
+body {
+	font-family: Arial, sans-serif;    
+	font-size: 150%;
+	background-color: #000;
+	color: #fff;
+}
+a {
+	color: #fff;
+}
+.svid {
+	display: none;
+}
+#sv_bar {
+	display: block;
+	background-color: #333;
+	padding: 10px;
+}
+.sheader {
+	padding-left: 0;
+}
+.snametop {
+	font-size: 29px;
+}
+.sname {
+	font-size: 16px;
+	font-weight: bold;
+}
+.svid a {
+	color: #fff;
+	font-size: 18px;
+}
+.ssearch {
+	margin-top: 0;
+}
+.ssearch .form-control {
+	height: 32px;
+}
+.regions, .journal, .gosbdiv, .sline, .fhr, .sname {
+	display: none;
+}
+.leftmenu {
+	background-color: #000;
+	border-right: 2px solid #fff;
+}
+.leftmenu ul {			
+	padding: 10px 10px 0px 10px;
+}
+.leftmenu li {
+	border-bottom: none;
+}
+.snavbar, .sfooter {
+	background-color: #333;
+	color: #fff;
+}
+.shead {
+	margin-top: 0;
+}
+.navbar-default .navbar-brand {
+	color: #fff;
+	margin-top: 10px;
+	font-size: 26px;
+}
