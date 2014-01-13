@@ -57,3 +57,21 @@ a {
 .newsdiv {
 	width: 100%;
 }
+a:hover {
+	text-decoration: none;
+	color: #990000;
+}
+.scont {
+	font-size: 100%;
+}
+.snav a:hover, .slanguage a:hover, .leftmenu a:hover {
+	color: #990000;
+}
+small, .small {
+	font-size: 100%;
+}
+.btn-primary, .btn-primary:hover {
+	color: #000;
+	background-color: #fff;
+	border-color: #fff;
+}

@@ -48,7 +48,9 @@ a {
 .mt20 {
 	margin-top: 20px;
 }
-
+.mt50 {
+	margin-top: 50px;
+}
 
 
 .shead {
@@ -183,7 +185,6 @@ a {
 	background-color: #336699;
 	color: #fff;
 	padding-top: 10px;
-	margin-top: 50px;	
 }
 
 
@@ -197,4 +198,10 @@ a {
 }
 .docrow a {
 	font-size: 130%;	
+}
+a:hover {
+	color: #990000;
+}
+.snav a:hover {
+	color: #FFB800;	
 }

@@ -60,3 +60,18 @@ a {
 	margin-top: 10px;
 	font-size: 26px;
 }
+a:hover {
+	text-decoration: none;
+	color: #FFB800;
+}
+.scont {
+	font-size: 100%;
+}
+small, .small {
+	font-size: 100%;
+}
+.btn-primary, .btn-primary:hover {
+	color: #fff;
+	background-color: #000;
+	border-color: #000;
+}

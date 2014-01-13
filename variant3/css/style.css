@@ -198,3 +198,9 @@ a {
 .docrow a {
 	font-size: 130%;	
 }
+a:hover {
+	color: #990000;
+}
+.slanguage a:hover, .leftmenu a:hover{
+	color: #FFB800;
+}

@@ -63,3 +63,21 @@ a {
 	margin-top: 10px;
 	font-size: 26px;
 }
+a:hover {
+	text-decoration: none;
+	color: #990000;
+}
+.snav a:hover {
+	color: #990000;	
+}
+.scont {
+	font-size: 100%;
+}
+small, .small {
+	font-size: 100%;
+}
+.btn-primary, .btn-primary:hover {
+	color: #000;
+	background-color: #fff;
+	border-color: #fff;
+}
