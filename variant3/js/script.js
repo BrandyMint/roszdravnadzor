@@ -20,6 +20,14 @@ $( document ).ready(function() {
             $('head').append('<link id="sv_link" href="css/style_' + $(this).attr("theme") + '.css" rel="stylesheet">');
             hide_show_img(0);
         }                
-    });        
+    });
+
+    if ($('#sm_slider').length>0) {
+        $('#sm_slider').smSlider({
+            transition : 'fader',            
+            autoPlay : true,
+            delay : 2500
+        });
+    }
 
 });
