@@ -67,6 +67,9 @@ a:hover {
 	text-decoration: none;
 	color: #990000;
 }
+.snav {
+	font-size: 18px;
+}
 .snav a:hover {
 	color: #990000;	
 }
@@ -80,4 +83,10 @@ small, .small {
 	color: #000;
 	background-color: #fff;
 	border-color: #fff;
+}
+#sm_slider {
+	display: none;
+}
+.navbar-default .navbar-brand {
+	display: none;
 }

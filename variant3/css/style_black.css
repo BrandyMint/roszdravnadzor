@@ -76,3 +76,6 @@ small, .small {
 	background-color: #000;
 	border-color: #000;
 }
+#sm_slider {
+	display: none;
+}
